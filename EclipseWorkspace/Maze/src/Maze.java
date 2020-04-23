@@ -264,9 +264,9 @@ class Maze extends World {
         this.drawBG(ws);
         this.drawEP(ws);
         
-        if (togglePath) {
+        // if (togglePath) {
             this.drawTravelled(ws);
-        }
+        // }
         
         this.drawVisited(ws);
 
